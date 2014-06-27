@@ -23,7 +23,10 @@ public final class R {
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
         public static final int images_anayuki001=0x7f020001;
-        public static final int oraf01=0x7f020002;
+        public static final int neko=0x7f020002;
+        public static final int oraf01=0x7f020003;
+        public static final int pict_1=0x7f020004;
+        public static final int yuuhi=0x7f020005;
     }
     public static final class id {
         public static final int Linear_btn=0x7f08000a;
