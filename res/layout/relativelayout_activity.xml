@@ -1,7 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
-    
+    android:layout_height="match_parent"
+    android:background="@drawable/yuuhi" >
+
+    <TextView
+        android:id="@+id/relative_txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="30dp"
+        android:text="レイアウト練習"
+        android:textColor="#FFF" />
+
+    <EditText
+        android:id="@+id/relative_edt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="70dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/relative_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="130dp"
+        android:text="OK" />
+
+    <ImageButton
+        android:id="@+id/relative_imgbtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/relative_btn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@id/relative_btn"
+        android:layout_below="@id/relative_btn"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageButton
+        android:id="@+id/relative_imgbtn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/relative_btn"
+        android:layout_alignTop="@id/relative_btn"
+        android:layout_below="@id/relative_btn"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/relative_imgbtn3"
+        android:layout_marginLeft="110dp"
+        android:src="@drawable/neko" />
+
+    <ImageButton
+        android:id="@+id/relative_imgbtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignRight="@id/relative_btn"
+        android:layout_alignTop="@id/relative_btn"
+        android:layout_below="@id/relative_btn"
+        android:layout_marginBottom="18dp"
+        android:layout_marginRight="30dp"
+        android:src="@drawable/ic_launcher" />
 
 </RelativeLayout>
