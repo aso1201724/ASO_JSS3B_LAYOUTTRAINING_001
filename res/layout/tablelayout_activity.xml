@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent"
+    android:layout_gravity="right"
+    android:shrinkColumns="1"
+    android:stretchColumns="1"
+ >
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TableRow
         android:id="@+id/tableRow1"
@@ -16,17 +27,18 @@
 
         <TextView
             android:id="@+id/textView2"
-            android:layout_width="180dp"
+            android:layout_width="10dp"
             android:layout_height="wrap_content"
-            android:gravity="center"
+            android:gravity="left|center"
             android:text="商品名" />
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right"
             android:text="数量" />
-
     </TableRow>
 
     <TableRow
@@ -42,10 +54,20 @@
 
         <TextView
             android:id="@+id/textView4"
-            android:layout_width="wrap_content"
+            android:layout_width="10dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
             android:text="シャープＡＱＵＯＳ　Ｅ９ライン　３２Ｖ型"
             android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
 
     </TableRow>
 
@@ -63,20 +85,20 @@
             android:id="@+id/textView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
             android:text="東芝ＲＥＧＺＡ３２Ｖ型３２Ａ１Ｌ"
             android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10" />
 
     </TableRow>
 
     <TableRow
         android:id="@+id/tableRow4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" >
-
-    </TableRow>
-
-    <TableRow
-        android:id="@+id/tableRow5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" >
 
@@ -89,8 +111,15 @@
             android:id="@+id/textView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
             android:text="ＳＯＮＹ　ＢＲＡＢＩＡ　ＣＸ４ＤＯシリーズ　３２Ｖ型"
             android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10" />
 
     </TableRow>
 
